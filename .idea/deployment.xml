@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="360 Server">
+    <serverData>
+      <paths name="360 Server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/bitnami/htdocs/Angular" local="$PROJECT_DIR$" web="Angular" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
