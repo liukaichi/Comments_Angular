@@ -26,7 +26,7 @@
   </div>
   <div ng-repeat="comment in comments | orderBy: '-upvotes'">
     <span class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(comment)"></span>
-    {{comment.title}} - upvotes: {{comment.upvotes}} - Tags: <span ng-repeat="(key, value) in comment[tag]">{{key}}{{value}}</span>
+    {{comment.title}} - upvotes: {{comment.upvotes}} - Tags: <span style="border-radius:10px; background:#DDDDDD;padding:4px" ng-repeat="t in comment.tags">{{t}}</span>
   </div>
   
 </div>
